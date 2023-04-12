@@ -1,0 +1,21 @@
+version: '3.7'
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: base
+    volumes:
+      - ./src:/app/src
+      - ./nodemon.json:/app/nodemon.json
+    tmpfs:
+      - /tmp
+    command: yarn dev
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - OSMO_AUTH=Mk8t-nUrH3-bdcE91cagWnEi6Q7f0QXYII9Oo9G2lkQ
+      - JUNO_AUTH=FjaLnlN39qPAJNLPAYFvj_a4grqI7SJd-6vHnoj6Al4
+      - COSMOS_AUTH=UNxn7I_-agJ839CuyixcpeBMMCmsMySr2XQ5AA5VPSs
+      - NODE_ENV=development

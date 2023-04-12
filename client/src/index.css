@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* font-family: monospace !important; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", Arial, sans-serif;
+  /* background: #7acdf3 !important; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.product-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.product-img {
+  width: 100px;
+}

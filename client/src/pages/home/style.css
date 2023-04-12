@@ -1,0 +1,146 @@
+.blog-list-container {
+    width: 60%!important;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.blank-card {
+    width: 30%;
+    height: 300px;
+    box-shadow: 5px 6px 14px 5px rgb(198 193 202 / 16%);
+    border: 1px solid #f2f1f1;
+    background: #edfff7;
+}
+
+.signout {
+    color: white!important;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 0!important;
+}
+
+.top-row {
+    padding-top: 100px!important;
+}
+
+.modal-form-group {
+    display: flex;
+    align-items: center;
+}
+
+.date-category {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-img img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.blog-img {
+    width: 20%;
+}
+
+.blog-list {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.blog-content h1 {
+    font-family: "Lora"!important;
+}
+
+.blog-content {
+    width: 80%;
+}
+
+.sublist {
+    display: flex;
+    color: #929094;
+} 
+
+.sublist div {
+    margin-left: 10px!important;
+}
+
+.sublist span {
+    margin-left: 6px!important;
+}
+
+.sublist .category {
+    margin-left: 2rem!important;
+}
+
+.sublist .comment {
+    margin-left: 2rem!important;
+}
+
+.blog-description span {
+    margin-top: 10px!important;
+    font-size: 1.3rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /*No of lines after which the ellipsis needs to be added*/
+    -webkit-box-orient: vertical;
+    text-overflow: nowrap;
+    overflow:hidden;
+    white-space: normal;
+}
+
+.preview-image {
+    width: 50px;
+}
+
+.read-more {
+    display: table;
+    margin-top: 10px;
+    font-size: 1rem!important;
+    text-decoration: none;
+    color: #1eafed;
+    cursor: pointer;
+}
+
+.detail-show {
+    position: relative;
+    padding-left: 5rem!important;
+    padding-right: 5rem!important;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+.leave-comment-container form {
+    padding: 1rem;
+    background: #f8f9fa !important;
+    border-radius: 10px;
+}
+
+.speed-dial {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.comments-list-container {
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #d6d5d838;
+    border-radius: 10px;
+    box-shadow: -1px 0px 1px 0px rgba(0,0,0,0.2), 4px -1px 13px 0px rgba(0,0,0,0.14), -1px -9px 20px 0px rgb(0 0 0 / 0%);
+}
+
+.user-info {
+    display: grid;
+}
+
+.user-info span:nth-child(2) {
+    color: #9e9898d4;
+}
+
+.opacity-color {
+    color: #2121216e
+}
